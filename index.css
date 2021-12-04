@@ -3,12 +3,18 @@
     background-color: #c4c4c4;
 }
 /* class head */
-.head > h1{
+.head{
     background-image: url("images/mypic.jpeg");
     height: 50vh;
     align-items: center;
     justify-content: center;
 }
-.container>.head>h1>span {
+.head h1 span {
+    display: block;
+}
+
+
+/* education */
+.education-part p span {
     display: block;
 }
