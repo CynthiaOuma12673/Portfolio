@@ -65,3 +65,25 @@
 .education-part p span {
     display: block;
 }
+
+
+/* skills and hobbies */
+.Skills-hobbies {
+    display: flex;
+}
+.Skills-hobbies div:first-child {
+    width: 50%;
+    padding: 1rem;
+
+}
+.Skills-hobbies div:first-child h2 {
+    margin-left: 2rem;
+}
+.Skills-hobbies div:last-child {
+    width: 50%;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+.Skills-hobbies div:last-child h2 {
+    margin-left: 2rem;
+}
