@@ -24,6 +24,13 @@
 
 
 /* projects section */
+.sub-headings {
+    background-color: #e5e5e5;
+}
+.sub-headings h2 {
+    text-align: center;
+    padding: 2rem;
+}
 .paragraphs{
     display: grid;
     grid-template-columns: 1fr 1fr;
