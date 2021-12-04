@@ -51,17 +51,17 @@
 /* about me section */
 
 .second-paragraphs p {
-    padding: 3rem;
-}
+    padding: 1rem;
+} 
 .second-paragraphs p span {
     display: block;
     line-height: 1rem;
 }
 
-
-
-
 /* education */
+.education-part {
+    padding: 1rem;
+}
 .education-part p span {
     display: block;
 }
