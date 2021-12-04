@@ -87,3 +87,10 @@
 .Skills-hobbies div:last-child h2 {
     margin-left: 2rem;
 }
+
+/* footer */
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
