@@ -1,9 +1,13 @@
+/* class container  */
 .container {
     background-color: #c4c4c4;
 }
-.head {
-    background-image: url("../images/mypic.jpeg");
-    height: 50vh; 
+/* class head */
+.container .head h1 {
+    background-image: url("images/mypic.jpeg");
+     height: 50vh; 
+     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
