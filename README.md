@@ -1,5 +1,11 @@
 ## PORTFOLIO
 
+## Name of the Aurthor
+Cynthia Ouma Awuor
+
+## structure
+
+![Project Image](/images/project.png)
 ## Description
 
 This is a website that shows my portfolio it shows who and what I am. It also shows what I can do.
@@ -11,8 +17,6 @@ This is a website that shows my portfolio it shows who and what I am. It also sh
 
 ## Installation Process
 Click on the link provided bellow to view the site. https://CynthiaOuma12673.github.io/Portfolio/
-
-## structure
 
 
 ## Technology Used
