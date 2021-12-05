@@ -14,6 +14,7 @@ Click on the link provided bellow to view the site. https://CynthiaOuma12673.git
 
 ## structure
 
+
 ## Technology Used
 
 HTML- which was used to build the structure of the pages.
