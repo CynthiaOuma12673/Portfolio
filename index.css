@@ -1,7 +1,35 @@
 /* class container  */
-.container {
+.container-fluid{
     background-color: #e5e5e5;
 }
+/* navigation section */
+.navigation {
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    height: 100%;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigation ul li a:hover {
+    color: #F19201;
+} 
+
 /* class head */
 .head{
     background-image: url("images/mypic.jpeg");
