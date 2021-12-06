@@ -96,26 +96,47 @@
 
 
 /* skills and hobbies */
-.Skills-hobbies {
+.skills-hobbies {
+    background-color: #c4c4c4;
+}
+.my-skills {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.skills {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
     display: flex;
-}
-.Skills-hobbies div:first-child {
-    width: 50%;
-    padding: 1rem;
-
-}
-.Skills-hobbies div:first-child h2 {
-    margin-left: 2rem;
-}
-.Skills-hobbies div:last-child {
-    width: 50%;
-    padding: 1rem;
-    margin-left: 6rem;
-}
-.Skills-hobbies div:last-child h2 {
-    margin-left: 2rem;
+    text-align: left;
 }
 
+.skills img {
+    width: 50%;
+}
+
+.my-hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.hobbies {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: left;
+}
+
+.hobbies img {
+    width: 50%;
+}
 /* footer */
 .footer {
     display: flex;
