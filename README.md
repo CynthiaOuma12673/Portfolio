@@ -5,7 +5,7 @@ Cynthia Ouma Awuor
 
 ## structure
 
-![Project Image](/images/project.png)
+![Project Image](/images/mypage.png)
 ## Description
 
 This is a website that shows my portfolio it shows who and what I am. It also shows what I can do.
