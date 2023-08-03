@@ -1,145 +1,124 @@
-/* class container  */
-.container-fluid{
-    background-color: #e5e5e5;
+body{
+    background-color: #FD5956;
 }
-/* navigation section */
-.navigation {
-    float: right;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* section{
+  margin-top: ;
+} */
 
-.navigation ul {
-    height: 100%;
-    width: 80%;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* Custom CSS to add padding and center the logo */
+.navbar-brand {
+    padding: 5px;
+  }
+  
+  /* Styling the navbar links */
+  .navbar-nav .nav-link {
+    color: #333;
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0066cc;
+  }
+  .logo-small {
+    max-height: 50px; 
+  }
 
-.navigation ul li a {
-    text-decoration: none;
-    font-size: 1.2rem;
-}
 
-.navigation ul li a:hover {
-    color: #F19201;
-} 
 
-/* class head */
-.head{
-    background-image: url("images/mypic.jpeg");
-    height: 70vh;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.head h1 {
+  p span {
+    display: block;
+  }
+  
+
+  .text{
+    margin-top: 8rem;
+  }
+
+
+  button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #0066cc;
+    border: 2px solid #0066cc;
+    width: 12rem;
+  }
+  button:hover {
+    background: #0066cc;
+    color: #fff;
+  }
+
+  .socialmedia{
+    padding: 1rem;
+  }
+
+
+
+
+.section-title {
     text-align: center;
-    line-height: 1.6rem;
-    padding: 2rem;
-}
-.head h1 span {
-    display: block;
-    
-}
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+  }
+  
+  .section-title h2::before, .section-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #0066cc;
+    display: inline-block;
+  }
+  
+  .section-title h2::before {
+    margin: 0 15px 10px 0;
+  }
+  
+  .section-title h2::after {
+    margin: 0 0 10px 15px;
+  }
+  
+  .section-title p {
+    margin: 15px 0 0 0;
+  }
+  
+  .card{
+    background: transparent;
+    padding: 1rem;
+  }
+
+  .no-border{
+    border: none;
+  }
+
+  .special-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+  }
 
 
-/* projects section */
-.projects-part {
-    background-color: #c4c4c4;
-
-}
-.sub-headings h2 {
-    text-align: center;
-    padding: 2rem;
-}
-.paragraphs{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: 1rem;
-}
-
-.projects{
+  .pdf-container {
+    display: none;
+    margin-top: 20px;
     width: 100%;
-    padding: 1rem;
-    text-align: left;
-}
-.projects p span {
-    display: block;
-}
-
-/* about me section */
-
-.second-paragraphs p {
-    padding: 1rem;
-} 
-.second-paragraphs p span {
-    display: block;
-    line-height: 1rem;
-}
-
-/* education */
-.education-part {
-    padding: 1rem;
-}
-.education-part p span {
-    display: block;
-}
+    height: 500px;
+  }
 
 
-/* skills and hobbies */
-.skills-hobbies {
-    background-color: #c4c4c4;
-}
-.my-skills {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: 1rem;
-}
-
-.skills {
-    width: 100%;
+  .footer{
     background-color: white;
-    padding: 1rem;
-    display: flex;
-    text-align: left;
-}
-
-.skills img {
-    width: 50%;
-}
-
-.my-hobbies{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: 1rem;
-}
-
-.hobbies {
-    width: 100%;
-    background-color: white;
-    padding: 1rem;
-    display: flex;
-    text-align: left;
-}
-
-.hobbies img {
-    width: 50%;
-}
-/* footer */
-.footer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
+    color: black;
+    padding: 30px;
+    height: 60vh;
+  }
